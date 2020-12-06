@@ -1,0 +1,56 @@
+.container {
+                                    font-family: 'PT Sans', sans-serif;
+                                }
+
+                                body {
+                                    padding: 0;
+                                    margin: 0;
+                                }
+
+                                .layout {
+                                    margin: 0 auto;
+                                    width: 4.3cm;
+                                    height: 2.4cm;
+                                    display: flex;
+                                    padding: 0;
+                                    box-sizing: border-box;
+                                    padding-top: 5px;
+                                }
+
+                                .img-wrapper, .data-wrapper {
+                                    display: inline-block;
+                                    margin-top: 0;
+                                }
+
+                                .data-wrapper {
+                                    margin-top: 2px;
+                                }
+
+                                .img-wrapper {
+                                    margin: 0 0 0 0;
+                                }
+
+                                p {
+                                    margin: 0;
+                                    font-size: 8px;
+                                    font-weight: 700;
+                                }
+
+                                p.number {
+                                    font-size: 8px;
+                                }
+
+                                .layout img {
+                                    width: 70px;
+                                    height: auto;
+                                }
+
+                                @page {
+                                    size: 4.3cm 2.5cm;
+                                }
+
+                                @media print {
+
+                                    .layout { page-break-after: always;}
+
+                                } 
